@@ -23,7 +23,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--light-blue);
+    background-color: var(--black);
 }
 
 p {
@@ -59,6 +59,11 @@ img {
     font-size: 3rem;
 }
 
-i {
-    border-radius: 25%;
+.container img {
+    width: 25%;
+    border-radius: 10rem;
+}
+
+.online {
+    background-color: var(--light-blue) ;
 }
